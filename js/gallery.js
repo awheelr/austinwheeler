@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const number = 17;
+  const number = 4;
 
   for (let i = 0; i < number; i++) {
     const gallery = `<img src="./images/photo${i}.jpg">`;
