@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const number = 17;
 
   for (let i = 0; i < number; i++) {
-    const gallery = `<img class="lightbox_trigger" id="lightbox_trigger" src="./images/photo${i}.jpg">`;
+    const gallery = `<img src="./images/photo${i}.jpg">`;
 
     const target = document.querySelector(".items");
     target.insertAdjacentHTML("beforeend", gallery);
