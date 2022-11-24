@@ -1,0 +1,160 @@
+:root {
+    --white: #fff;
+    --black: #111;
+    --accent-color: #8257E5;
+}
+
+  
+  body {
+    display: block;
+    margin: 0 auto;
+    color: var(--white);
+    background-color: #18181b;
+    font-family: 'Jura', sans-serif;
+    font-weight: 100;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 1rem 30px 20px;
+  }
+
+  h1.title {
+    font-size: 32px;
+    font-weight: 300;
+  }
+  
+  h2.description {
+    font-size: 18px;
+    font-weight: 200;
+  }
+  
+navbar {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+  /* SECTION */
+  section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 4rem;
+  }
+  
+  /* ANIMATIONS */
+  h1.title {
+    animation: rise 300ms backwards ease-out;
+  }
+  
+  h2.description {
+    animation: rise 400ms backwards ease-out;
+  }
+  
+  .items img {
+    animation: rise 400ms ease-out backwards;
+    animation-play-state: paused;
+    animation-delay: 300ms;
+  }
+  
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(10%);
+    }
+  }
+
+ .items {
+  columns: 3;
+  column-gap: 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto; /* center */
+  color: #fff;
+  background-color: rgb(18, 20, 20);
+}
+
+.items img {
+  margin-bottom: 1rem;
+}
+
+.items img {
+  cursor: pointer;
+  transition: opacity 400ms;
+}
+
+.items img:hover {
+  opacity: 0.9;
+}
+
+img {
+  width: 100%;
+}
+
+
+@keyframes animateglow {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 500px;
+  height: 100px;
+  padding: 3px;
+  position: relative;
+  border-radius: 6px;
+  font-size: 1.5em;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.profile:after {
+  position: absolute;
+  content: "";
+    top: 5vw;
+  z-index: -1;
+  height: 100%;
+  width: 250%;
+  margin: 0 auto;
+  transform: scale(0.75);
+  -webkit-filter: blur(5vw);
+  -moz-filter: blur(5vw);
+  -ms-filter: blur(5vw);
+  filter: blur(5vw);
+  background: linear-gradient(270deg, #0fffc1, #7e0fff);
+  background-size: 200% 200%;
+  animation: animateGlow 10s ease infinite;
+}
+@keyframes animateGlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon {
+  opacity: .75;
+}
