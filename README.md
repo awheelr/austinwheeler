@@ -4,4 +4,5 @@
 
 ### To-do list
 
-- [ ] Add styling for mobile support.
+- [x] Add styling for mobile support.
+- [x] Fix media-queries nav styling.
