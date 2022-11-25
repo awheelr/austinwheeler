@@ -1,5 +1,4 @@
 # [![austinwheeler.me](/images/photo4.jpg)](austinwheeler.me)
-# [![Checks](dist/assets/header.png)](austinwheeler.me/checks)
 
 > Personal website for my amateur photography skills. Created by [Austin Wheeler](https://austinwheeler.me).
 
