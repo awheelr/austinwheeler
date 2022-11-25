@@ -150,11 +150,7 @@ section.gallery {
     margin-bottom: 2em;
     width: 100%;
   }
-
-  .nav-gap {
-    flex-grow: 1
-  }
-
+  
   .row {
     display: flex;
     flex-direction: column;
