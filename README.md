@@ -1,4 +1,4 @@
-# [![austinwheeler.me](/images/photo4.jpeg)](austinwheeler.me)
+# [![austinwheeler.me](./images/photo4.jpeg)](austinwheeler.me)
 
 > Personal website for my amateur photography skills. Created by [Austin Wheeler](https://austinwheeler.me).
 
